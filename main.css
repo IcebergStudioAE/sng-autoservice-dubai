@@ -867,12 +867,6 @@ ol {
   padding-bottom: 94px;
 }
 
-@media screen and (max-width: 1199px) {
-  .business {
-    display: none;
-  }
-}
-
 .our-team {
   background-color: #f5f4fa;
 }
