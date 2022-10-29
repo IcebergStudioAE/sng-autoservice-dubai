@@ -867,6 +867,18 @@ ol {
   padding-bottom: 94px;
 }
 
+.buisness__description{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  background-color: rgb(245, 245, 250);
+  color: rgb(33, 33, 33);
+  padding: 60px 20px 60px 20px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
 .our-team {
   background-color: #f5f4fa;
 }
