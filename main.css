@@ -1392,6 +1392,66 @@ ol {
   overflow: hidden !important;
 }
 
+/* .............................................................................................services....................................................................................................... */
+
+.services__cards-list{
+  margin-left: -30px;
+}
+
+@media screen and (min-width: 768px) {
+  .services__cards-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+   .services__cards-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+  }
+}
+
+
+.services__card-li{
+  height: 400px;
+  flex-basis: calc((100% - 60px) / 2);
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 0 20px rgba(196, 196, 196, 0.467);
+
+}
+
+@media screen and (min-width: 768px) {
+  .services__card-li{
+    flex-basis: calc((100% - 60px) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .services__card-li{
+    flex-basis: calc((100% - 90px) / 3);
+  }
+}
+.services__types-name{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: hsl(0deg 0% 13%);
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 16px;
+}
+
+
+
+
+
 :root {
   --accent-color: #2196f3;
   --main-font: 'Roboto', sans-serif;
