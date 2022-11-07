@@ -646,6 +646,117 @@ ol {
   line-height: 24px;
 }
 
+
+
+.promocode__generate-promocode-container{
+  margin-bottom: 50px;
+}
+.promocode__promocode{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+  height: 63px;
+  width: 200px;
+  background-color: #dfdfdf;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .promocode__promocode{
+    font-size: 24px;
+    height: 83px;
+    width: 240px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .promocode__promocode{
+    font-size: 28px;
+    height: 83px;
+    width: 280px;
+    margin-bottom: 40px;
+  }
+}
+.promocode__generate-btn{
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  background-color: hsl(207deg 90% 54%);
+  border-radius: 6px;
+  padding: 15px 32px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .promocode__generate-btn{
+    font-size: 24px;
+    padding: 19px 39px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .promocode__generate-btn{
+    font-size: 24px;
+    padding: 23px 50px;
+  }
+}
+.promocode__instruction-list{
+  background-color: #f5f4fa;
+  padding: 30px;
+  width: max-content;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 768px) {
+  .promocode__instruction-list{
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .promocode__instruction-list{
+    padding: 60px;
+  }
+}
+.promocode__instruction-action{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+}
+@media screen and (min-width: 768px) {
+  .promocode__instruction-action{
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .promocode__instruction-action{
+    font-size: 22px;
+  }
+}
+
+.promocode__instruction-action:not(:last-child){
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .promocode__instruction-action:not(:last-child){
+    margin-bottom: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .promocode__instruction-action:not(:last-child){
+    margin-bottom: 12px;
+  }
+}
 .business {
   padding-bottom: 94px;
 }

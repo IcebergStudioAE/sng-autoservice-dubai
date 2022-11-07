@@ -26,3 +26,8 @@
     refs.modal.classList.toggle("is-hidden");
   }
 })();
+
+function promocodeClick() {
+  const promocode = document.getElementById('promocode');
+  promocode.innerHTML = 'trdauto2022-95';
+}
