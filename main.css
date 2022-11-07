@@ -1400,9 +1400,9 @@ ol {
 
 .contacts__cards-list{
   box-shadow: 0 0 20px rgba(196, 196, 196, 0.467);
-  padding: 20px;
+  padding: 50px;
   box-sizing: border-box;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   .contacts__cards-list{
@@ -1411,9 +1411,10 @@ ol {
 }
 @media screen and (min-width: 1200px) {
   .contacts__cards-list{
-    padding: 70px 25px;
+    padding: 55px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
   }
 }
 .contacts__card-li{
@@ -1483,7 +1484,6 @@ ol {
 @media screen and (min-width: 1200px) {
   .contacts__card-li:not(:last-child){
     margin-bottom: 0px;
-    margin-right: 50px;
   }
 }
 .contacts__location-container{
@@ -1509,6 +1509,34 @@ ol {
 @media screen and (min-width: 1200px) {
   .contacts__number{
     font-size: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+.schedule{
+  display: none;
+}
+.address{
+  display: none;
+}
+}
+.contacts__rest-contacts-container-desktop{
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .contacts__rest-contacts-container-desktop{
+    display: flex;
+  }
+  .contacts__rest-contact-desktop{
+    display: flex;
+    box-shadow: 0 0 20px rgba(196, 196, 196, 0.467);
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    width: max-content;
+    align-items: center;
+  }
+  .contacts__rest-contact-desktop:not(:last-child){
+    margin-right: 20px;
   }
 }
 :root {
