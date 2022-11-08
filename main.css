@@ -515,29 +515,28 @@ ol {
     display: none;
   }
 }
-
-.effective-solutions {
-  background-color: #c4c4c4;
-  padding-top: 118px;
-  padding-bottom: 118px;
-  padding-bottom: 200px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/images__effective-solutions/jpg/effective-solutions-bg-mobile.jpg);
-  background-size: cover;
+.efective-solutions__bg-video{
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+.effective-solutions__container{
+  position: relative;
+}
+.efective-solutions{
+  padding-top: 0;
+  padding-bottom: 60px;
 }
 
-@media screen and (min-width: 1200px) {
-  .effective-solutions {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/images__effective-solutions/jpg/effective-solutions-bg-desktop.jpg);
-  }
-}
-
-.effective-solutions__container {
+.effective-solutions__title-btn-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform:  translate(-50%, -50%);
 }
 
 .effective-solutions__title {
